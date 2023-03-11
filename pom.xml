@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.3</version>
+		<version>3.0.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bakery</groupId>
 	<artifactId>bakery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bakery</name>
-	<description>Bakerystore</description>
+	<description>order sandwiches online</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.28</version>
+			<version>8.0.32</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

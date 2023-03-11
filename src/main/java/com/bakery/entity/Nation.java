@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table (name = "nation", schema = "dev")
+@Table (name = "nation", schema = "PetSafe")
 public class Nation {
     @Id
     private Integer id;
